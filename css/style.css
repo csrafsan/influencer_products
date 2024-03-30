@@ -1,0 +1,73 @@
+/* ---------------------
+        Font Import  
+   ---------------------*/
+   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+   /* -----------------------
+           Variable CSS 
+       ----------------------*/
+   
+   :root {
+       --pink: #fd0155;
+       --rating: orange;
+       --dark: #000130;
+   }
+   
+   /* -----------------------
+               Basic Styles
+       ----------------------*/
+   
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+   html {
+       scroll-behavior: smooth;
+   }
+   body {
+       font-family: 'Roboto', sans-serif;
+   }
+   a {
+       text-decoration: none;
+   }
+   img {
+       cursor: pointer;
+   }
+   .container {
+       width: 75%;
+       margin: 30px auto;
+   }
+   .color {
+       color: var(--pink);
+   }
+   
+
+   /*---------------------- 
+          header style 
+   ---------------------- */
+
+
+
+.logo_heading span{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.heading-color{
+    color: #E02C6D;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a{
+    margin-left: 20px;
+    color: black;
+    font-size: large;
+    font-weight: 700;
+}
