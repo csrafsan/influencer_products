@@ -61,7 +61,7 @@
 
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -70,4 +70,37 @@
     color: black;
     font-size: large;
     font-weight: 700;
+}
+
+.top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.top-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.top-img{
+    background-image: url(../images/circle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;    
+}
+
+.top-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn{
+   background-color: #E02C6D; 
+   border-radius: 20px;
+   color: white;
+   width: 140px;
+   padding: 5px 10px ;
 }
